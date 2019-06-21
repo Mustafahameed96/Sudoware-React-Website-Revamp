@@ -1,0 +1,61 @@
+.anim-vertical {
+	-webkit-transition: all 1s;
+	transition: all 1s
+}
+
+body#cbp-so-scroller .collapse-vertical {
+	height: 0;
+	overflow-y: hidden;
+	padding: 0
+}
+
+.expand-vertical {
+	height: auto
+}
+
+#servicesDescrip {
+	background-color: #df5757;
+	text-align: center;
+	padding: 100px 0;
+	color: #fff;
+	-webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, .1);
+	-moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, .1);
+	box-shadow: inset 0 4px 0 rgba(0, 0, 0, .1)
+}
+
+#servicesDescrip h1 {
+	margin: 0 0 40px;
+	color: #fff
+}
+
+#servicesDescrip h2 {
+	font-size: 1.4444444444444em;
+	font-weight: 700;
+	-webkit-transition: all .2s ease-out;
+	-moz-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+	text-shadow: 0 0 0 transparent
+}
+
+#mynav li a,
+#mynav li a:active,
+#mynav li a:focus,
+#mynav li a:hover,
+#servicesDescrip h2 a {
+	color: #fff
+}
+
+#mynav {
+	margin-top: 6px
+}
+
+#contact-us-btn a:focus,
+#contact-us-btn a:hover {
+	color: #46b900
+}
+
+.sectionStyle{
+    background-image: url("../images/portfoli.png") !important ;
+    color: "white";
+}
